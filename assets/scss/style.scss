@@ -1,0 +1,19 @@
+/*
+ Theme Name:   Lava Creek Child Theme
+ Theme URI:    http://steelbridge.io/lava-creek
+ Description:  A child theme of Parent Theme @ TFS NetWork
+ Author:       Chris Parsons
+ Author URI:   http://steelbridge.io
+ Template:     tfs-parent-theme
+ Version:      1.0.2
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  lava-creek-child
+    - Footer
+    - Widgets
+*/
+
+@import "supports/footer";
+@import "supports/widgets";
+
