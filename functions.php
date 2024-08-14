@@ -6,7 +6,7 @@
    * Time: 13:59
    * Functions for Lava Creek Child Theme
    */
-
+	
 /** Various clean up functions */
 require_once( 'library/cleanup.php' );
 
@@ -35,5 +35,8 @@ require_once( 'library/theme-support.php' );
 /** Change WP's sticky post class */
 require_once( 'library/sticky-posts.php' );
 
-  /** If your site requires protocol relative url's for theme assets, uncomment the line below */
-  // require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );
+/** If your site requires protocol relative url's for theme assets, uncomment the line below */
+// require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );
+
+// Check to see if rev-manifest exists for CSS and JS static asset revisioning
+//https://github.com/sindresorhus/gulp-rev/blob/master/integration.md
